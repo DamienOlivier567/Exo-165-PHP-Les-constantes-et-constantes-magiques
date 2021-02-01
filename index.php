@@ -10,8 +10,18 @@
  */
 // TODO Votre code ici.
 
+const MA_CONSTANCE = 12;
+const AUTRE_CONSTANCE = 2;
+echo MA_CONSTANCE * AUTRE_CONSTANCE . '<br>';
+
+const MA_CHAINE = 'C est cool PHP';
+echo MA_CONSTANCE + AUTRE_CONSTANCE * strlen(MA_CHAINE).'<br>';
 
 /**
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
 // TODO Votre code ici.
+
+echo basename(__FILE__).'<br>';
+echo basename(__DIR__).'<br>';
+echo basename(__LINE__).'<br>';
